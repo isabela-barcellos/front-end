@@ -1,0 +1,38 @@
+/* ALT+SHFT+F - formata o código */
+.container_coluna {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 500px 200px 200px;
+}
+
+.container_linha {
+    background-color: bisque;
+    display: grid;
+    grid-template-rows: 500px 200px 200px;
+}
+
+.container_fracao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container_fracao_repeat{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+div {
+    background-color: chartreuse;
+    border: 1px solid black;
+    padding: 5px;
+}/* coloca em m div, vai ara todas as tags de uma vez (seletor) */
+
+@media(max-width:1200px)
+{
+    .container{
+        display: flex;
+        flex-direction: row;
+        background-color: aqua;
+    }
+}
