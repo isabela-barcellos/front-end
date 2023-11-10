@@ -1,0 +1,12 @@
+
+body{ background-color: aquamarine;}
+/* desktop */
+@media(min-width: 1200px) and (max-width: 1919px){
+    body{background-color: blue;}
+
+}
+/* notebook */
+@media(min-width:992px) and (max-width:1119px){
+    body{background-color: aqua;}
+
+}
